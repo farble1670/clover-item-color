@@ -1,0 +1,3 @@
+rootProject.name='Clover Item Color'
+include ':clover-item-color'
+include ':testapp'

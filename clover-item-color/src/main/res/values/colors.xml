@@ -1,0 +1,72 @@
+<resources>
+
+  <!--main colors, mostly used as a button backgrounds-->
+  <color name="main_red">#FB6264</color>
+  <color name="main_red_pressed">#CE5052</color>
+  <color name="main_red_disabled">#4DFB6264</color>
+  <color name="main_yellow">#EEDE77</color>
+  <color name="main_yellow_pressed">#C3B662</color>
+  <color name="main_green">#6ADA99</color>
+  <color name="main_green_pressed">#57B27D</color>
+  <color name="main_green_disabled">#4D6ADA99</color>
+
+  <color name="main_orange">#FCA468</color>
+  <color name="main_blue">#56B7E2</color>
+  <color name="main_purple">#A175DB</color>
+
+  <!-- additional colors for line items and categories -->
+  <color name="main_salmon">#FB8266</color>
+  <color name="main_light_orange">#F5C270</color>
+  <color name="main_light_green">#90D574</color>
+  <color name="main_light_green_85">#D990D574</color>
+  <color name="main_teal">#4EC3C6</color>
+  <color name="main_teal_85">#D94EC3C6</color>
+  <color name="main_violet">#7B97DF</color>
+  <color name="main_violet_85">#D97B97DF</color>
+  <color name="main_magenta">#CF6B9F</color>
+  <color name="main_magenta_85">#D9CF6B9F</color>
+
+  <!-- Table of percentage to HEX values, to apply transparency to the main color. E.g. for 50% white use #80FFFFFF.
+  Note: color grades are NOT necessarily equal to opacity levels!
+  100% — FF       75% — BF        50% — 80        25% — 40        0% — 00
+  95% — F2        70% — B3        45% — 73        20% — 33
+  90% — E6        65% — A6        40% — 66        15% — 26
+  85% — D9        60% — 99        35% — 59        10% — 1A
+  80% — CC        55% — 8C        30% — 4D        5% — 0D -->
+
+  <!-- main colors grades. -->
+  <color name="main_blue_10">#1A56B7E2</color>
+  <color name="main_blue_20">#3356b7e2</color>
+  <color name="main_blue_30">#4D56B7E2</color>
+  <color name="main_blue_50">#8056B7E2</color>
+  <color name="main_blue_55">#8C56B7E2</color>
+  <color name="main_blue_70">#B356B7E2</color>
+  <color name="main_blue_85">#D956B7E2</color>
+  <color name="main_red_10">#1AFB6264</color>
+  <color name="main_red_20">#33FB6264</color>
+  <color name="main_red_30">#4DFB6264</color>
+  <color name="main_red_50">#80FB6264</color>
+  <color name="main_red_55">#8CFB6264</color>
+  <color name="main_red_70">#B3FB6264</color>
+  <color name="main_red_85">#D9FB6264</color>
+  <color name="main_green_10">#1A6ADA99</color>
+  <color name="main_green_20">#336ADA99</color>
+  <color name="main_green_30">#4D6ADA99</color>
+  <color name="main_green_50">#806ADA99</color>
+  <color name="main_green_55">#8C6ADA99</color>
+  <color name="main_green_70">#B36ADA99</color>
+  <color name="main_green_85">#D96ADA99</color>
+  <color name="main_yellow_10">#1AEEDE77</color>
+  <color name="main_yellow_20">#33EEDE77</color>
+  <color name="main_yellow_30">#4DEEDE77</color>
+  <color name="main_yellow_50">#80EEDE77</color>
+  <color name="main_yellow_55">#8CEEDE77</color>
+  <color name="main_yellow_70">#B3EEDE77</color>
+  <color name="main_yellow_85">#D9EEDE77</color>
+  <color name="main_purple_55">#8CA175DB</color>
+  <color name="main_purple_70">#B3A175DB</color>
+  <color name="main_purple_85">#D9A175DB</color>
+  <color name="main_orange_55">#8CFCA468</color>
+  <color name="main_orange_70">#B3FCA468</color>
+  <color name="main_orange_85">#D9FCA468</color>
+</resources>
