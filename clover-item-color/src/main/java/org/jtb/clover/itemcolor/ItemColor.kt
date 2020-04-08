@@ -1,14 +1,11 @@
-package org.jtb.clover.itemcolor;
+package org.jtb.clover.itemcolor
 
-import android.content.Context;
+import android.content.Context
+import java.util.*
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
-
-public class ItemColor {
-    public static final List<Integer> colors = new ArrayList<>(Arrays.asList(
+object ItemColor {
+    val colors: List<Int> = ArrayList(
+        Arrays.asList(
             R.color.main_blue,
             R.color.main_green,
             R.color.main_orange,
@@ -36,12 +33,14 @@ public class ItemColor {
             R.color.main_orange_70,
             R.color.main_red_70,
             R.color.main_purple_70,
-            R.color.main_yellow_70));
+            R.color.main_yellow_70
+        )
+    )
 
-    private static Random RANDOM = new Random();
+    private val RANDOM = Random()
 
-    public static int colorInt(Context context, String id) {
-        RANDOM.setSeed(id.hashCode());
-        return context.getResources().getColor(colors.get(RANDOM.nextInt(colors.size())));
+    fun colorInt(context: Context, id: String): Int {
+        RANDOM.setSeed(id.hashCode().toLong())
+        return context.resources.getColor(colors[RANDOM.nextInt(colors.size)])
     }
 }
